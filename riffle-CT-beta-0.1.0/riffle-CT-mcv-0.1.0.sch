@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2903,6 +2903,11 @@ to drive probe</text>
 <wire x1="139.7" y1="53.34" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
 <label x="142.24" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="5"/>
+<wire x1="80.518" y1="146.304" x2="74.168" y2="146.304" width="0.1524" layer="91"/>
+<label x="69.85" y="146.05" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$30" class="0">
 <segment>
@@ -3053,13 +3058,6 @@ to drive probe</text>
 <label x="104.394" y="111.506" size="1.778" layer="95"/>
 <junction x="99.314" y="111.506"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="EC" class="0">
-<segment>
-<pinref part="JP6" gate="G$1" pin="5"/>
-<wire x1="80.518" y1="146.304" x2="74.168" y2="146.304" width="0.1524" layer="91"/>
-<label x="69.85" y="146.05" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
